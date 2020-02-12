@@ -6,7 +6,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    在github上搭建个人博客 |  Hexo
+    在github上搭建个人博客 |  Welcome To QiaoHuan&#39;s Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -94,7 +94,7 @@
       
 
       
-      <h1 id="在Github上搭建你的个人博客"><a href="#在Github上搭建你的个人博客" class="headerlink" title="在Github上搭建你的个人博客"></a>在Github上搭建你的个人博客</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。"><a href="#从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。" class="headerlink" title="从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。"></a>从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。</h3><h4 id="特别注明：-本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）"><a href="#特别注明：-本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）" class="headerlink" title="特别注明： 本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）"></a>特别注明： 本篇基于MacOS操作系统，不过在Win和Linux没什么区别<del>（说什么屁话）</del></h4><h2 id="总体思路"><a href="#总体思路" class="headerlink" title="总体思路"></a>总体思路</h2><h3 id="Git-hexo-github-Markdown-优点：①几乎免费，学生党友好-②代码要求低，小白友好"><a href="#Git-hexo-github-Markdown-优点：①几乎免费，学生党友好-②代码要求低，小白友好" class="headerlink" title="Git + hexo + github +Markdown 优点：①几乎免费，学生党友好      ②代码要求低，小白友好"></a>Git + hexo + github +Markdown <br>优点：①几乎免费，学生党友好<br>      ②代码要求低，小白友好</h3><h2 id="好，接下来我们开始进入正题"><a href="#好，接下来我们开始进入正题" class="headerlink" title="好，接下来我们开始进入正题"></a>好，接下来我们开始进入正题</h2><h3 id="第一步，搭建环境，安装软件"><a href="#第一步，搭建环境，安装软件" class="headerlink" title="第一步，搭建环境，安装软件"></a>第一步，搭建环境，安装软件</h3><h4 id="在node-js官网下载并安装兼容自己操作系统的版本"><a href="#在node-js官网下载并安装兼容自己操作系统的版本" class="headerlink" title="在node.js官网下载并安装兼容自己操作系统的版本"></a>在<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a>官网下载并安装兼容自己操作系统的版本</h4><h4 id="在git官网找到自己的版本"><a href="#在git官网找到自己的版本" class="headerlink" title="在git官网找到自己的版本"></a>在<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a>官网找到自己的版本</h4><h4 id="接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用"><a href="#接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用" class="headerlink" title="接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用"></a>接下来安装Hexo<br>在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用</h4><img src="/2020/02/07/%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/WechatIMG705.jpeg" alt="建立文件夹" style="zoom: 50%;">
+      <h1 id="在Github上搭建你的个人博客"><a href="#在Github上搭建你的个人博客" class="headerlink" title="在Github上搭建你的个人博客"></a>在Github上搭建你的个人博客</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。"><a href="#从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。" class="headerlink" title="从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。"></a>从前一直是用纸笔的方式记录自己的学习和生活，后来越来越嫌弃自己写字难看，于是记笔记的习惯荒废了很久。最近一位看到一位大佬在博客上写东西，觉得很新鲜，于是找了几篇教程开始了搭建自己博客的过程，在这其中由于各种原因，走了一些弯路也踩了一些坑，所以浪费了不少时间，今天在这里总结一下，算是对浪费了的那些时间有个交代。</h3><h4 id="特别注明：-本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）"><a href="#特别注明：-本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）" class="headerlink" title="特别注明： 本篇基于MacOS操作系统，不过在Win和Linux没什么区别（说什么屁话）"></a>特别注明： 本篇基于MacOS操作系统，不过在Win和Linux没什么区别<del>（说什么屁话）</del></h4><h2 id="总体思路"><a href="#总体思路" class="headerlink" title="总体思路"></a>总体思路</h2><h3 id="Git-hexo-github-Markdown-优点：①几乎免费，学生党友好-②代码要求低，小白友好"><a href="#Git-hexo-github-Markdown-优点：①几乎免费，学生党友好-②代码要求低，小白友好" class="headerlink" title="Git + hexo + github +Markdown 优点：①几乎免费，学生党友好             ②代码要求低，小白友好"></a>Git + hexo + github +Markdown <br>优点：①几乎免费，学生党友好<br>             ②代码要求低，小白友好</h3><h2 id="好，接下来我们开始进入正题"><a href="#好，接下来我们开始进入正题" class="headerlink" title="好，接下来我们开始进入正题"></a>好，接下来我们开始进入正题</h2><h3 id="第一步，搭建环境，安装软件"><a href="#第一步，搭建环境，安装软件" class="headerlink" title="第一步，搭建环境，安装软件"></a>第一步，搭建环境，安装软件</h3><h4 id="在node-js官网下载并安装兼容自己操作系统的版本"><a href="#在node-js官网下载并安装兼容自己操作系统的版本" class="headerlink" title="在node.js官网下载并安装兼容自己操作系统的版本"></a>在<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a>官网下载并安装兼容自己操作系统的版本</h4><h4 id="在git官网找到自己的版本"><a href="#在git官网找到自己的版本" class="headerlink" title="在git官网找到自己的版本"></a>在<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a>官网找到自己的版本</h4><h4 id="接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用"><a href="#接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用" class="headerlink" title="接下来安装Hexo在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用"></a>接下来安装Hexo<br>在你喜欢的位置建立一个名为“Hexo”的文件夹，用于做文件的本地保存和测试用</h4><img src="/2020/02/07/%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/WechatIMG705.jpeg" alt="建立文件夹" style="zoom: 50%;">
 
 <h4 id="在Hexo文件夹下安装Hexo"><a href="#在Hexo文件夹下安装Hexo" class="headerlink" title="在Hexo文件夹下安装Hexo"></a>在Hexo文件夹下安装Hexo<br></h4><h5 id="直接从hexo的官网下载会遇到奇怪的网络问题和permission-denied等错误，而且就算网络问题被解决，速度也会很慢。所以我们需要跳过可能会遇见的很多坑，选择一个镜像网站来获取hexo。在bash中执行以下代码："><a href="#直接从hexo的官网下载会遇到奇怪的网络问题和permission-denied等错误，而且就算网络问题被解决，速度也会很慢。所以我们需要跳过可能会遇见的很多坑，选择一个镜像网站来获取hexo。在bash中执行以下代码：" class="headerlink" title="直接从hexo的官网下载会遇到奇怪的网络问题和permission denied等错误，而且就算网络问题被解决，速度也会很慢。所以我们需要跳过可能会遇见的很多坑，选择一个镜像网站来获取hexo。在bash中执行以下代码："></a>直接从hexo的官网下载会遇到奇怪的网络问题和permission denied等错误，而且就算网络问题被解决，速度也会很慢。所以我们需要跳过可能会遇见的很多坑，选择一个镜像网站来获取hexo。在bash中执行以下代码：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
@@ -288,7 +288,7 @@
       <li>
         &copy;
         2015-2020
-        John Doe
+        QiaoHuan
       </li>
       <li>
         
@@ -329,7 +329,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt="Welcome To QiaoHuan&#39;s Blog"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -340,6 +340,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/Lover/%E7%BA%AA%E5%BF%B5%E6%97%A5.html">Lover</a>
     </li>
     
     <li class="nav-item">
