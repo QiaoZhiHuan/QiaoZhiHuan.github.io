@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qiaozhihuan.com/"/>
-  <updated>2020-02-14T12:56:40.487Z</updated>
+  <updated>2020-02-14T13:09:32.558Z</updated>
   <id>http://qiaozhihuan.com/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://qiaozhihuan.com/2020/02/14/Hello-World/"/>
+    <id>http://qiaozhihuan.com/2020/02/14/Hello-World/</id>
+    <published>2020-02-14T13:04:26.000Z</published>
+    <updated>2020-02-14T13:09:32.558Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hello, World !</p><p>It’s not means the first code in computer (hello world^_^</p><p>It means say Hello to u</p><p>Because u is my World</p><p>if and only if……</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>My_Lover</title>
     <link href="http://qiaozhihuan.com/2020/02/13/My-Lover/"/>
     <id>http://qiaozhihuan.com/2020/02/13/My-Lover/</id>
     <published>2020-02-13T14:54:17.000Z</published>
-    <updated>2020-02-14T12:56:40.487Z</updated>
+    <updated>2020-02-14T13:10:06.781Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="/Lover/jinianri.html">宝宝，点这里！！</a></p><p>等等！先别点~！</p><p>让我们先戴上耳机</p><p>另外，下一个页面中可能需要往下滑动页面</p><p>好了，让我们开始吧💗</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="/Lover/jinianri.html">宝宝，点这里！！</a></p><p>等等！先别点~！</p><p>让我们先戴上耳机</p><p>另外，下一个页面中可能需要往下滑动页面</p><p>好了，让我们开始吧💗</p><p>（或者也可以先看看另外一篇博客</p>]]></content>
     
     <summary type="html">
     
